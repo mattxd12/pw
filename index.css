@@ -1,0 +1,218 @@
+/* Start of Home page*/
+.para {
+  font-family: fantasy, sans-serif;
+  color: #FFFFFF;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 1px 1px 	#000000;
+  font-size: 20px;
+}
+.name {
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+  text-shadow: 1px 1px 	#000000;
+  font-family: fantasy, sans-serif;
+}
+
+.futureFont{
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+  text-shadow: 1px 1px 	#000000;
+  font-family: PT sans, Junction;
+}
+
+.picture {
+  height: 200px;
+  width: 200px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mikeKenz {
+  height: 373px;
+  width: 275px;
+}
+.famAtBeach {
+  height: 373px;
+  width: 477px;
+}
+.rue {
+  height: 373px;
+  width: 275px;
+}
+.kxdFam {
+  height: 373px;
+  width: 275px;
+}
+
+#famPics {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+#famPics img {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+body {
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)
+  ),
+  url("fishing.jpg");
+  background-size: cover;
+  opacity: inherit;
+  background-position: center;
+}
+.snow{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    margin: 10px auto;
+}
+.vail {
+  height: 400px;
+  width: 600px;
+  position: absolute;
+}
+/* End of Home page*/
+
+/* horizontal menu */
+    .menu {
+        vertical-align: middle;
+        width: auto;
+        height: 40px;
+        font-size: 20px;
+        font-family: sans-serif;
+        text-align: center;
+        background-color: #0b0b0b;
+            border-radius: 8px;
+    }
+    .menu ul {
+        height: auto;
+        padding: 8px 0px;
+        margin: 0px;
+    }
+    .menu li {
+    display: inline;
+    padding: 20px;
+    }
+    .menu a {
+        text-decoration: none;
+        color: #29a1f7;
+        padding: 8px 8px 8px 8px;
+    }
+    .menu a:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+/* end of horizontal menu */
+
+
+/* Start of future plans page */
+
+.heading {
+  font-size: 35px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.gif {
+  position: relative;
+  padding-bottom: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+/* End of future plans page */
+
+/* Start of stocks page */
+.stockWindow {
+height: 600px;
+width: 1300px;
+position: relative;
+margin: 10px auto;
+}
+.stockChart {
+position: absolute;
+display:block;
+}
+
+/* End of stocks page */
+
+/* @mattxd12 */
+.handle{
+  font-family: fantasy, sans-serif;
+  font-size: 30px;
+  text-shadow: 1px 1px 	#000000;
+  text-align: center;
+    color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+/* Footer */
+.foot {
+      vertical-align: middle;
+      width: auto;
+      height: 56px;
+      background-color: #414041;
+      border-radius: 8px;
+      opacity: 90%;
+  }
+
+.contactBar {
+  position: relative;
+  padding-bottom: 0;
+  width: 172px;
+  display: block;
+  margin: 0 auto;
+}
+.linkedin img {
+    height:55px;
+    width: 55px;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.linkedin:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+.gmail:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+.github:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}

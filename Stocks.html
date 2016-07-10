@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="index.css">
+    <title>Stocks</title>
+  </head>
+  <body>
+    <!-- start of horizontal menu -->
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About_me.html">About Me</a></li>
+        <li><a href="FuturePlans.html">The Future</a></li>
+        <li><a href="Stocks.html"><strong><i>Stocks</i></strong></a></li>
+      </ul>
+    </div>
+    <!-- end of horizontal menu -->
+
+    <h1 class="heading"><br>Interactive Stock Chart</h1>
+
+
+    <!-- TradingView Widget BEGIN -->
+    <div class="stockWindow">
+      <script type="text/javascript" src="https://d33t3vvu2t2yu5.cloudfront.net/tv.js" class="stockChart"></script>
+      <script type="text/javascript">
+      new TradingView.widget({
+        "width": 1250,
+        "height": 550,
+        "symbol": "AMEX:NUGT",
+        "interval": "D",
+        "timezone": "Etc/UTC",
+        "theme": "Grey",
+        "style": "2",
+        "locale": "en",
+        "toolbar_bg": "#f1f3f6",
+        "withdateranges": true,
+        "allow_symbol_change": true,
+        "watchlist": [
+          "NUGT",
+          "USLV",
+          "TSLA",
+          "GOOG"
+        ],
+        "hideideas": true,
+        "show_popup_button": true,
+        "popup_width": "1000",
+        "popup_height": "650"
+      });
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+
+
+
+
+    <h4 class="handle">@MattXd12</h4>
+
+    <footer class = "foot">
+      <small class="contactBar">
+        <a href="mailto:mattxd12@gmail.com">
+        <img src = "Gmail_Logo.png" alt="Missing" height="55" width="55">
+        </a>
+        <a href = "https://github.com/mattxd12">
+        <img src = "GitHub-Logo2.png" alt="Missing" height="55" width="55">
+        </a>
+        <a href = "https://www.linkedin.com/in/mattxdonovan">
+          <img src = "linkedinLogo.png" alt="Missing" height="55" width="55">
+        </a>
+      </small>
+    </footer>
+
+  </body>
+</html>
