@@ -7,14 +7,6 @@
   text-shadow: 1px 1px 	#000000;
   font-size: 20px;
 }
-.name {
-  color: #FFFFFF;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 50px;
-  text-shadow: 1px 1px 	#000000;
-  font-family: fantasy, sans-serif;
-}
 
 .futureFont{
   color: #FFFFFF;
@@ -26,8 +18,9 @@
 }
 
 .picture {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 225px;
+  top: 10;
   display: block;
     margin-left: auto;
     margin-right: auto;
@@ -79,6 +72,7 @@ body {
   background-size: cover;
   opacity: inherit;
   background-position: center;
+  border: 5px solid black;
 }
 .snow{
     height: 400px;
@@ -115,7 +109,7 @@ body {
     }
     .menu a {
         text-decoration: none;
-        color: #29a1f7;
+        color: #FFFFFF;
         padding: 8px 8px 8px 8px;
     }
     .menu a:hover {
@@ -157,21 +151,12 @@ display:block;
 
 /* End of stocks page */
 
-/* @mattxd12 */
-.handle{
-  font-family: fantasy, sans-serif;
-  font-size: 30px;
-  text-shadow: 1px 1px 	#000000;
-  text-align: center;
-    color: #FFFFFF;
-  margin-bottom: 0;
-}
 
 /* Footer */
 .foot {
       vertical-align: middle;
       width: auto;
-      height: 56px;
+      height: 60px;
       background-color: #414041;
       border-radius: 8px;
       opacity: 90%;
@@ -180,39 +165,41 @@ display:block;
 .contactBar {
   position: relative;
   padding-bottom: 0;
-  width: 172px;
+  width: 180px;
   display: block;
   margin: 0 auto;
 }
-.linkedin img {
-    height:55px;
-    width: 55px;
-    -webkit-transition: all 1s ease; /* Safari and Chrome */
+.linkedin .gmail .github img {
+    -webkit-transition: 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
 }
-
-.linkedin:hover img {
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-     transform:scale(1.25);
+.github {
+    height:55px;
+    width: 55px;
+      }
+.linkedin {
+    height:55px;
+    width: 55px;
+  }
+.gmail {
+    height:55px;
+    width: 55px;
+    }
+.github:hover {
+    position:relative;
+    width:60px;
+    height:60px;
+    }
+.linkedin:hover {
+    position:relative;
+    width:60px;
+    height:60px;
 }
-
-.gmail:hover img {
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-     transform:scale(1.25);
-}
-.github:hover img {
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-     transform:scale(1.25);
+.gmail:hover {
+    position:relative;
+    width:60px;
+    height:60px;
 }
