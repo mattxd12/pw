@@ -96,7 +96,7 @@ body {
         font-family: sans-serif;
         text-align: center;
         background-color: #0b0b0b;
-            border-radius: 8px;
+            border-radius: 0px;
     }
     .menu ul {
         height: auto;
@@ -137,20 +137,6 @@ body {
 
 /* End of future plans page */
 
-/* Start of stocks page */
-.stockWindow {
-height: 600px;
-width: 1300px;
-position: relative;
-margin: 10px auto;
-}
-.stockChart {
-position: absolute;
-display:block;
-}
-
-/* End of stocks page */
-
 
 /* Footer */
 .foot {
@@ -158,7 +144,8 @@ display:block;
       width: auto;
       height: 60px;
       background-color: #414041;
-      border-radius: 8px;
+      border-radius: 0px;
+      border-top: 5px solid black;
       opacity: 90%;
   }
 
